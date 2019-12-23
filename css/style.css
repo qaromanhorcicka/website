@@ -1,0 +1,179 @@
+html,
+body {
+    background: #F4F4F4;
+    margin: 0;
+    height: 100%;
+}
+
+.link-title {
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+}
+
+.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    padding: 45px 0 20px 40px;
+    box-shadow: inset 0 -10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    background: #3b7687;
+    padding-left: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 20px 10px;
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover {
+    color: #ecf2f3;
+}
+
+
+aside {
+    float: left;
+    width: 220px;
+    padding: 30px 0 0 40px;
+}
+
+h1 {
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+}
+
+h2 {
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+
+.main {
+    margin: 0 0 0 260px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.main a:hover {
+    color: #444444;
+}
+
+#home-image img {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px 40px;
+    background: #6d6d6d9c;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 12px;
+    text-align: right;
+    clear: both;
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.separator {
+    color: #ccc;
+}
+
+
+
+/************About Page Styles**********/
+
+#about-page #home-image img {
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#about-page #profile-info {
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+#about-page .description {
+    clear: both;
+
+
+}
+
+/****************Contact Page Styles*******************/
+
+#contact-page #form {
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 16px 5px #ccc;
+    border-radius: 5px;
+}
+
+#contact-page #form label {
+    display: block;
+    padding: 0 0 8px 0;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-size: 16px;
+}
+
+#contact-page #form input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: #ededed;
+    border: 1px solid #e0e0e0;
+}
+
+#contact-page #form #message {
+    width: 100%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #ededed;
+    border: 1px solid #e0e0e0;
+}
+
+#contact-page #form #submit {
+    height: auto;
+    background: rgb(59, 118, 135);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+}
+
+#contact-page #form #submit:hover {
+    background: rgba(59, 118, 135, .95);
+}
